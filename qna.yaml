@@ -22,6 +22,6 @@ seed_examples:
      Yes Financial Results is "連結経営成績" in Japanese.
 document:
  repo: https://github.com/siyuanzh09/instructlab.git
- commit: f9baac0
+ commit: 79e7db8
  patterns:
    - README.md
