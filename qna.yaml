@@ -1,0 +1,27 @@
+task_description: 'Teach the model the Japanese translation of Financial results'
+created_by: siyuanzh
+domain: terminology
+seed_examples:
+ - question: what is the english translation of "連結経営成績"
+   answer: |
+     The english translation of "連結経営成績" is "Financial Results".
+ - question: How do you translate "連結経営成績"?
+   answer: |
+     I will translate "連結経営成績" as Financial Results.
+ - question: what is "連結経営成績" in English?
+   answer: |
+     "Financial Results".
+ - question: what is "Financial Results" in Japanese?
+   answer: |
+     "連結経営成績"
+ - question: How should I translate Financial Results into Japanese?
+   answer: |
+     "連結経営成績"
+ - question: Is Financial Results "連結経営成績" in Japanese?
+   answer: |
+     Yes Financial Results is "連結経営成績" in Japanese.
+document:
+ repo: https://github.com/siyuanzh09/instructlab.git
+ commit: 
+ patterns:
+   - README.md
